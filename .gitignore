@@ -1,0 +1,5 @@
+playaround
+build
+node_modules
+*.map
+*.cache

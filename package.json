@@ -1,0 +1,19 @@
+{
+  "name": "virtual-dom",
+  "version": "0.1.0",
+  "description": "Just a simple virtual dom",
+  "scripts": {
+    "build": "babel src -d build",
+    "bundle": "parcel build build/index.js -d dist",
+    "start": "npm run build && npm run bundle && http-server dist"
+  },
+  "keywords": [],
+  "author": "Yuichi Hagio",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/plugin-transform-react-jsx": "^7.0.0",
+    "http-server": "^0.11.1"
+  }
+}
